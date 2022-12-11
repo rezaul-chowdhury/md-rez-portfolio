@@ -9,7 +9,6 @@ function App() {
     return (
         <div>
             <div>
-                {/*<NevIndex />*/}
                 <HeaderIndex />
                 <MainIndex />
                 <FooterIndex />
