@@ -3,7 +3,7 @@ import React from 'react';
 const Paragraph = (props) => {
     return (
         <div>
-            <p className="font-Poppins">{props.text}</p>
+            <p className="font-OldStandard">{props.text}</p>
         </div>
     );
 };

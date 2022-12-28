@@ -5,9 +5,9 @@ import Button from "../elements/Button";
 
 const Section2 = () => {
     return (
-        <div className="bg-section2 p-10 flex flex-col items-center justify-center mobile-tablet:h-screen">
+        <div className="bg-section2 p-10 flex flex-col items-center justify-center lg:h-screen">
             <div className="my-2">
-                <Title title="{About Me}" />
+                <Title title="About Me" />
             </div>
             <div  className="w-auto my-8 text-2xl sm:px-14">
                 <Paragraph text="I am an entry-level software engineer.
@@ -17,9 +17,9 @@ const Section2 = () => {
                         I could use and enhance my knowledge and talent for the development of both
                         the organisation and myself." />
             </div>
-            <div className="my-2">
-                <Button text="Resume" />
-            </div>
+            {/*<div className="my-2">*/}
+            {/*    <Button text="Resume" />*/}
+            {/*</div>*/}
         </div>
     );
 };

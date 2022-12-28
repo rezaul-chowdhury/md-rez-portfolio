@@ -6,9 +6,9 @@ import {faHtml5, faCss3Alt, faJs, faReact, faNodeJs, faGithub, faGitAlt} from "@
 
 const Skill = () => {
     return (
-        <div className="bg-skill p-10 flex flex-col items-center justify-center mobile-tablet:h-screen">
+        <div className="bg-skill p-10 flex flex-col items-center justify-center lg:h-screen">
             <div className="my-16">
-                <Title title="{Skills}" />
+                <Title title="Skills" />
             </div>
             <div className="flex flex-wrap justify-center my-16">
                 <IconBig icon={faHtml5} />

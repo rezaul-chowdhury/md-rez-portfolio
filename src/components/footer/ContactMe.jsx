@@ -8,10 +8,13 @@ const ContactMe = () => {
     return (
         <div className="bg-contact-me p-10 flex flex-col items-center justify-center">
             <div className="my-2 pt-8">
-                <Title title="{Contact Me}" />
+                <Title title="Contact" />
             </div>
-            <div className="my-6">
+            <div className="my-2">
                 <Button text="Email me" />
+            </div>
+            <div className="my-2">
+                <Button text="Resume" />
             </div>
             <div className="flex my-6 pb-8">
                 <IconSmall icon={faGithub}/>

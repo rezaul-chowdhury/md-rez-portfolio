@@ -9,7 +9,7 @@ function App() {
     return (
         <div>
             <div>
-                <NevIndex />
+                {/*<NevIndex />*/}
                 <HeaderIndex />
                 <MainIndex />
                 <FooterIndex />
