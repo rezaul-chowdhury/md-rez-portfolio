@@ -4,7 +4,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 const IconSmall = (props) => {
     return (
         <div>
-            <a href="#" className="h-10 w-10 mx-2 block hover:bg-black hover:text-white p-1 rounded"><FontAwesomeIcon icon={props.icon} size = '2x' /></a>
+            <a href={props.link} className="h-10 w-10 mx-2 block hover:bg-black hover:text-white p-1 rounded" target="_blank"><FontAwesomeIcon icon={props.icon} size = '2x' /></a>
         </div>
     );
 };

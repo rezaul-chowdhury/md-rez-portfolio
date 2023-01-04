@@ -22,9 +22,9 @@ const Section1 = () => {
             {/*    <Button text="Email me" />*/}
             {/*</div>*/}
             <div className="flex">
-                <IconSmall icon={faGithub}/>
-                <IconSmall icon={faTwitter}/>
-                <IconSmall icon={faLinkedin}/>
+                <IconSmall link={'https://github.com/MdRez19'} icon={faGithub}/>
+                <IconSmall link={'https://twitter.com/MdRez19'} icon={faTwitter}/>
+                <IconSmall link={'https://www.linkedin.com/in/rezaul-chowdhury-aa3558127'} icon={faLinkedin}/>
             </div>
         </div>
     );

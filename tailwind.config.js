@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       spacing: {
-        'custom-mobile-width': '18rem',
+        'custom-mobile-width': '20rem',
         'custom-tablet-width': '21rem',
         'custom-desktop-width': '25rem'
       },
