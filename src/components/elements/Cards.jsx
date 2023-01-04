@@ -28,6 +28,24 @@ const cards = [
         details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
         button: <Button text="Visit" />
     },
+    {
+        id: 4,
+        img: require("../../images/oop-calculator.jpg"),
+        title: 'OOP-CALCULATOR',
+        details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        button: <a href="https://oop-calculator.netlify.app/" target="_blank" rel="noopener">
+            <Button text="Visit" />
+        </a>
+    },
+    {
+        id: 5,
+        img: require("../../images/rplumbing.jpg.jpg"),
+        title: 'R-PLUMING',
+        details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        button: <a href="https://rplumbing.netlify.app/" target="_blank" rel="noopener">
+            <Button text="Visit" />
+        </a>
+    },
 ]
 
 export default cards;
